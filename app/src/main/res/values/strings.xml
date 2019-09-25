@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="tvNombre">Manuel Martínez Serrano</string>
+    <string name="btAgenda">AGENDA</string>
+    <string name="btCalculadora">CALCULADORA</string>
+    <string name="btReceta">RECETA</string>
+
+</resources>
