@@ -4,5 +4,15 @@
     <string name="btAgenda">AGENDA</string>
     <string name="btCalculadora">CALCULADORA</string>
     <string name="btReceta">RECETA</string>
+    <string name="tvNuevoContacto">Nuevo Contacto</string>
+    <string name="tvNombreAgenda">Nombre: &#160;</string>
+    <string name="tvApellidosAgenda">Apellidos: &#160;</string>
+    <string name="tvEmailAgenda">e-mail: &#160;</string>
+    <string name="tvTelefonoAgenda">Teléfono: &#160;</string>
+    <string name="tvNotasAgenda">Notas: &#160;</string>
+    <string name="btReiniciar">Reiniciar</string>
+    <string name="btSalir">Salir</string>
+
+
 
 </resources>
