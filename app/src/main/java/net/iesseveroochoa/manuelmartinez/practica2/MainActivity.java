@@ -28,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(MainActivity.this,AgendaActivity.class);
-
-                //intent.putExtra(AgendaActivity.EXTRA_NOMBRE, etNombre.getText().toString());
-
                 startActivity(intent);
             }
         });
