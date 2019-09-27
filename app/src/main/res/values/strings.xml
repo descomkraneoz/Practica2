@@ -10,6 +10,7 @@
     <string name="tvEmailAgenda">e-mail: &#160;</string>
     <string name="tvTelefonoAgenda">Teléfono: &#160;</string>
     <string name="tvNotasAgenda">Notas: &#160;</string>
+    <string name="btAceptar">Aceptar</string>
     <string name="btReiniciar">Reiniciar</string>
     <string name="btSalir">Salir</string>
 

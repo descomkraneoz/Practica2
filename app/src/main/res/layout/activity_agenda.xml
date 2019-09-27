@@ -135,29 +135,58 @@
     <LinearLayout
         android:id="@+id/llNotasAgenda"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:orientation="vertical"
-        tools:context=".AgendaActivity" >
+        tools:context=".AgendaActivity">
 
         <TextView
             android:id="@+id/tvNotasAgenda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingStart="10dp"
             android:paddingLeft="10dp"
+            android:paddingEnd="0dp"
             android:paddingRight="0dp"
             android:text="@string/tvNotasAgenda"
-            android:textSize="24sp"
-            android:paddingStart="10dp"
-            android:paddingEnd="0dp" />
+            android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/etNotasAgenda"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:autofillHints=""
+            android:background="@color/colorPrimary"
             android:ems="10"
             android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:autofillHints="" />
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btAceptar" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btReiniciar" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btSalir" />
     </LinearLayout>
 
 </LinearLayout>
